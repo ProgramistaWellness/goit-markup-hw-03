@@ -17,7 +17,29 @@ body {
   font-size: 14px;
   width: 1600px;
 }
-
+h1 {
+  width: 696px;
+  margin-left: 452px;
+  margin-top: 200px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--brand-colorAccent);
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: inline-block;
+}
 .logo {
   color: var(--brand-color2);
   font-size: 26px;
@@ -87,12 +109,6 @@ body {
   color: var(--brand-colorAccent);
 }
 
-.list-horizontal {
-  list-style-type: none;
-  overflow: hidden;
-  display: inline-block;
-}
-
 .element-left {
   float: left;
 }
@@ -105,18 +121,6 @@ body {
   margin-left: 0px;
   margin-top: 0px;
   background: var(--brand-background);
-}
-.header-one {
-  width: 696px;
-  margin-left: 452px;
-  margin-top: 200px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--brand-colorAccent);
 }
 
 .wraper-hero {
@@ -147,13 +151,6 @@ body {
 .wraper-portfolio {
   width: 1500px;
   margin-left: auto;
-}
-
-.header-two {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
 }
 
 .wraper-hero h3 {
