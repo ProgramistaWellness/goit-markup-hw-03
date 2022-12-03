@@ -7,6 +7,11 @@
   --button-background: #f5f4fa;
   --paragraph-color: #757575;
   --link-footercolor: #fff;
+  --bottom-border-header: #e5e5e5;
+}
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -23,11 +28,14 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--brand-colorAccent);
+  text-align: center;
 }
 h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 p {
@@ -59,35 +67,8 @@ header a:focus {
   margin-right: 94px;
 }
 
-.logo-footer {
-  color: var(--brand-colorAccent);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 2;
-}
-
 .logo-web {
   color: var(--brand-color1);
-}
-
-.link-footer {
-  color: var(--link-footercolor);
-  font-weight: 500;
-  letter-spacing: 0.02em;
-}
-
-.link-footer:hover,
-.link-footer:focus {
-  color: var(--brand-color1);
-}
-
-.box-service {
-  font-weight: 700;
-  background-color: var(--brand-color1);
-  color: var(--brand-colorAccent);
-  border-radius: 4px;
-  max-width: 200px;
-  cursor: pointer;
 }
 
 .box-push {
@@ -107,19 +88,6 @@ header a:focus {
 .background-header {
   background: var(--brand-background);
 }
-.background-header h3 {
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.wraper-footer {
-  background-color: var(--brand-background);
-  color: var(--brand-colorAccent);
-}
-
-.background-footer {
-  background-color: var(--brand-background);
-}
 
 .header-three-team {
   font-weight: 500;
@@ -136,25 +104,118 @@ header a:focus {
 .container {
   width: 1200px;
   margin: 0 auto;
-  text-align: center;
 }
+.flex-box {
+  display: flex;
+}
+
+/* header section styling */
 
 .header-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .header-list {
-  display: flex;
   gap: 50px;
 }
 
-.flex {
-  display: flex;
+.align-center {
   align-items: center;
 }
-
 .header-navigation {
   display: flex;
   gap: 46px;
+}
+
+.header-border-bottom {
+  border-bottom: 1px solid var(--bottom-border-header);
+}
+
+/* hero section styling*/
+.box-service {
+  font-weight: 700;
+  background-color: var(--brand-color1);
+  color: var(--brand-colorAccent);
+  border-radius: 4px;
+  max-width: 200px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 2;
+  padding: 10px 41px;
+  text-align: center;
+}
+
+.header-flex {
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.negative-margin {
+  margin-top: -94px;
+}
+
+.hero-gap {
+  gap: 30px;
+}
+
+.hero-article p {
+  width: 270px;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.hero-article h3 {
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* about us section styling*/
+
+.background-color-about {
+  background-color: var(--button-background);
+}
+
+/* footer styling */
+
+.footer-container {
+  background-color: var(--brand-background);
+  color: var(--brand-colorAccent);
+  padding: 60px 0px;
+}
+
+.background-footer {
+  background-color: var(--brand-background);
+}
+
+.adress-footer {
+  flex-direction: column;
+  gap: 9;
+}
+
+.footer-container a {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo-footer {
+  color: var(--brand-colorAccent);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.link-footer {
+  color: var(--link-footercolor);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--brand-color1);
 }
