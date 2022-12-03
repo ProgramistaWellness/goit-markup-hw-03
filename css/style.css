@@ -15,7 +15,6 @@ body {
   letter-spacing: 0.03em;
   line-height: 1;
   font-size: 14px;
-  width: 1600px;
 }
 h1 {
   font-weight: 900;
@@ -39,7 +38,6 @@ p {
 ul {
   list-style-type: none;
   overflow: hidden;
-  display: flex;
 }
 
 header a {
@@ -54,27 +52,11 @@ header a:focus {
   color: var(--brand-color1);
 }
 
-footer ul {
-  display: block;
-}
-
-.container {
-  width: 1200px;
-  text-align: center;
-  padding: 215px 94px 215px 94px;
-  display: flex;
-}
-
-.background-header .container {
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-}
-
 .logo {
   color: var(--brand-color2);
   font-size: 26px;
   font-weight: 700;
+  margin-right: 94px;
 }
 
 .logo-footer {
@@ -97,10 +79,6 @@ footer ul {
 .link-footer:hover,
 .link-footer:focus {
   color: var(--brand-color1);
-}
-
-.list-footer {
-  display: block;
 }
 
 .box-service {
@@ -129,24 +107,14 @@ footer ul {
 .background-header {
   background: var(--brand-background);
 }
-
-.about-wrap {
-  width: 1600px;
-}
-
-.about-wrap .container {
-  flex-wrap: wrap;
+.background-header h3 {
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .wraper-footer {
   background-color: var(--brand-background);
   color: var(--brand-colorAccent);
-  display: block;
-}
-
-.background-header h3 {
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 .background-footer {
@@ -161,4 +129,32 @@ footer ul {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.06em;
+}
+.section {
+  padding: 94px 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  gap: 50px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  gap: 46px;
 }
