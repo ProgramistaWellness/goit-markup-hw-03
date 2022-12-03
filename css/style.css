@@ -71,33 +71,10 @@ header a:focus {
   color: var(--brand-color1);
 }
 
-.box-push {
-  background-color: var(--button-background);
-  font-weight: 500;
-  line-height: 1.5;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.box-push:hover,
-.box-push:focus {
-  background-color: var(--brand-color1);
-  color: var(--brand-colorAccent);
-}
-
 .background-header {
   background: var(--brand-background);
 }
 
-.header-three-team {
-  font-weight: 500;
-}
-
-.header-three-portfolio {
-  font-weight: 700;
-  font-size: 18px;
-  letter-spacing: 0.06em;
-}
 .section {
   padding: 94px 0;
 }
@@ -114,6 +91,7 @@ header a:focus {
 .header-container {
   display: flex;
   justify-content: space-between;
+  padding: 24px 0 25px 0;
 }
 .header-list {
   gap: 50px;
@@ -143,6 +121,7 @@ header a:focus {
   line-height: 2;
   padding: 10px 41px;
   text-align: center;
+  border: none;
 }
 
 .header-flex {
@@ -177,6 +156,10 @@ header a:focus {
   background-color: var(--button-background);
 }
 
+.header-three-team {
+  font-weight: 500;
+}
+
 /* footer styling */
 
 .footer-container {
@@ -191,7 +174,7 @@ header a:focus {
 
 .adress-footer {
   flex-direction: column;
-  gap: 9;
+  gap: 9px;
 }
 
 .footer-container a {
@@ -218,4 +201,50 @@ header a:focus {
 .link-footer:hover,
 .link-footer:focus {
   color: var(--brand-color1);
+}
+
+/* portfolio styling */
+
+.box-push {
+  background-color: var(--button-background);
+  font-weight: 500;
+  line-height: 1.5;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px 22px;
+  text-align: center;
+  border: none;
+}
+
+.box-push:hover,
+.box-push:focus {
+  background-color: var(--brand-color1);
+  color: var(--brand-colorAccent);
+}
+
+.filter-menu {
+  gap: 8px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 34px;
+}
+.flex-grind {
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: calc((100% - 60px) / 3);
+}
+
+.flex-grind figcaption {
+  padding: 20px 24px;
+}
+
+.flex-grind h3 {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+}
+
+.flex-grind p {
+  font-size: 16px;
+  line-height: 2;
 }
