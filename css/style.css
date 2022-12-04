@@ -8,6 +8,7 @@
   --paragraph-color: #757575;
   --link-footercolor: #fff;
   --bottom-border-header: #e5e5e5;
+  --bottom-border-portfolio: #eee;
 }
 * {
   margin: 0;
@@ -236,6 +237,7 @@ header a:focus {
 
 .flex-grind figcaption {
   padding: 20px 24px;
+  border: 1px solid var(--bottom-border-portfolio);
 }
 
 .flex-grind h3 {
@@ -247,4 +249,7 @@ header a:focus {
 .flex-grind p {
   font-size: 16px;
   line-height: 2;
+}
+.flex-grid img {
+  display: block;
 }
