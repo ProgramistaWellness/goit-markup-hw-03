@@ -6,7 +6,7 @@
   --menu-color: #212121;
   --button-background: #f5f4fa;
   --paragraph-color: #757575;
-  --link-footercolor: (hexa) #ffffff99;
+  --link-footercolor: #ffffff99;
   --bottom-border-header: #e5e5e5;
   --bottom-border-portfolio: #eee;
 }
@@ -46,7 +46,6 @@ p {
 
 ul {
   list-style-type: none;
-  overflow: hidden;
 }
 
 header a {
